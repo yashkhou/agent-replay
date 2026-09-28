@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Tamper-evident replay logs.** Recorder events are now SHA-256 hash chained, resumable across recorder instances, and can be integrity-verified before fixture replay.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
